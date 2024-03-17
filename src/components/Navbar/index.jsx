@@ -19,6 +19,10 @@ export default function Navbar() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScrollPos);
+
+    return () => {
+      window.addEventListener("scroll", handleScrollPos);
+    };
   }, [scrollPos]);
 
   return (
@@ -47,7 +51,7 @@ export default function Navbar() {
           </div>
 
           {/* menu */}
-          <div className="hidden md:flex items-center md:gap-4 lg:gap-8 text-black-200 text-sm lg:text-base font-body">
+          <div className="hidden h-screen md:flex items-center md:gap-4 lg:gap-8 text-black-200 text-sm lg:text-base font-body">
             <a href="#" className="navlink active-navlink">
               Products
             </a>

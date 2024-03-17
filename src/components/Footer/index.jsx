@@ -79,7 +79,8 @@ export default function Footer() {
               className="w-[125px] h-auto mb-10 lg:mb-0"
             />
           </div>
-          <div className="grid grid-cols-2 gap-9 font-body mb-[52px] md:grid-cols-4 lg:col-span-4 lg:mb-0">
+          <div className="grid grid-cols-2 gap-9 font-body mb-[50px] md:grid-cols-4 lg:col-span-4 lg:mb-0">
+            {/* Features */}
             <div>
               <h6 className="mb-5 font-medium text-lg text-white">Features</h6>
               <div className="flex flex-col gap-4 text-white/70 text-sm">
@@ -100,6 +101,9 @@ export default function Footer() {
                 </a>
               </div>
             </div>
+            {/* --- Features --- */}
+
+            {/* Company */}
             <div>
               <h6 className="mb-5 font-medium text-lg text-white">Company</h6>
               <div className="flex flex-col gap-4 text-white/70 text-sm">
@@ -120,6 +124,9 @@ export default function Footer() {
                 </a>
               </div>
             </div>
+            {/* --- Company --- */}
+
+            {/* Resource */}
             <div>
               <h6 className="mb-5 font-medium text-lg text-white">Resources</h6>
               <div className="flex flex-col gap-4 text-white/70 text-sm">
@@ -139,31 +146,34 @@ export default function Footer() {
                   Ecommerce
                 </a>
               </div>
-              <div>
-                <h6 className="mb-5 font-medium text-lg text-white">
-                  Get Help
-                </h6>
-                <div className="flex flex-col gap-4 text-white/70 text-sm">
-                  <a className="footer-link" href="#">
-                    Shopify Company
-                  </a>
-                  <a className="footer-link" href="#">
-                    Knowledge Base
-                  </a>
-                  <a className="footer-link" href="#">
-                    Videos Contact
-                  </a>
-                  <a className="footer-link" href="#">
-                    Tech Support
-                  </a>
-                  <a className="footer-link" href="#">
-                    API Documentation
-                  </a>
-                </div>
+            </div>
+            {/* --- Resource --- */}
+
+            {/* Get Helps */}
+            <div>
+              <h6 className="mb-5 font-medium text-lg text-white">Get Help</h6>
+              <div className="flex flex-col gap-4 text-white/70 text-sm">
+                <a className="footer-link" href="#">
+                  Shopify Company
+                </a>
+                <a className="footer-link" href="#">
+                  Knowledge Base
+                </a>
+                <a className="footer-link" href="#">
+                  Videos Contact
+                </a>
+                <a className="footer-link" href="#">
+                  Tech Support
+                </a>
+                <a className="footer-link" href="#">
+                  API Documentation
+                </a>
               </div>
             </div>
+            {/* --- Get Helps --- */}
+
             <div className="text-center lg:col-span-3 md:flex justify-between items-center">
-              <div className="flex items-center justify-center gap-4 mb-4 order-2">
+              <div className="flex items-center justify-center gap-4 mb-4 order-1">
                 <a
                   href="https://www.instagram.com/bethup97/?next=%2F"
                   target="_blank"
@@ -199,10 +209,10 @@ export default function Footer() {
                 © 2022 Shopify by{" "}
                 <a
                   className="italic underline"
-                  href="https://berthutapea.vercel.app/"
+                  href="https://dickydarmawan.vercel.app"
                   target="_blank"
                 >
-                  Gilbert Hutapea
+                  Dicky Darmawan
                 </a>
               </p>
             </div>

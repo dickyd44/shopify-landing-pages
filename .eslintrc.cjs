@@ -14,7 +14,6 @@ module.exports = {
   rules: {
     "no-unused-vars": "off",
     "react/jsx-no-undef": "off",
-    allowReferrer: "allow-referrer",
     "react/prop-types": "off",
     "react/jsx-no-target-blank": "off",
     "react-refresh/only-export-components": [

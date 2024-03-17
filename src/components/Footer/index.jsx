@@ -71,7 +71,7 @@ export default function Footer() {
 
       {/* footer */}
       <footer className="container mx-auto max-w-[1344px]">
-        <div className="px-5 py-10 flex flex-col sm:px-10 lg:grid grid-cols-3 lg:gap-y-32">
+        <div className="px-5 py-10 flex flex-col sm:px-10 lg:grid grid-cols-3 lg:gap-y-20">
           <div className="lg:col-span-1">
             <img
               src="shopify-footer.png"
@@ -79,7 +79,7 @@ export default function Footer() {
               className="w-[125px] h-auto mb-10 lg:mb-0"
             />
           </div>
-          <div className="grid grid-cols-2 gap-9 font-body mb-[50px] md:grid-cols-4 lg:col-span-4 lg:mb-0">
+          <div className="grid grid-cols-2 gap-10 font-body md:grid-cols-4 lg:col-span-4 lg:mb-0">
             {/* Features */}
             <div>
               <h6 className="mb-5 font-medium text-lg text-white">Features</h6>
@@ -172,8 +172,8 @@ export default function Footer() {
             </div>
             {/* --- Get Helps --- */}
 
-            <div className="text-center lg:col-span-3 md:flex justify-between items-center">
-              <div className="flex items-center justify-center gap-4 mb-4 order-1">
+            <div className="text-center md:col-span-3 md:flex justify-between items-center">
+              <div className="mx-auto flex items-center justify-center gap-3 mb-7 mt-5 order-1">
                 <a
                   href="https://www.instagram.com/bethup97/?next=%2F"
                   target="_blank"
@@ -186,13 +186,6 @@ export default function Footer() {
                 </a>
                 <a href="https://github.com/berthutapea" target="_blank">
                   <img className="footer-icon" src="/github.svg" alt="github" />
-                </a>
-                <a href="https://t.me/bethup97" target="_blank">
-                  <img
-                    className="footer-icon"
-                    src="/telegram.svg"
-                    alt="telegram"
-                  />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/gilberthutapea/"

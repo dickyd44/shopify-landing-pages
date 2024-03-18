@@ -13,8 +13,25 @@ export default function CardProfileList({ profile }) {
       className="flex items-center justify-between"
     >
       <div className="flex items-center gap-2 5">
-        <div></div>
+        <div>
+          <img
+            src={profile.avatar}
+            alt="profile"
+            className="w-7 h-auto object-cover rounded-full sm:w-12 lg:w-14"
+          />
+        </div>
+        <div>
+          <h5 className="text-[10px] text-black-100 font-medium sm:text-sm sm:mb-0.5 lg:text-lg lg:mb-0.5">
+            {profile.name}
+          </h5>
+          <p className="text-[#9C9C9C] text-[7px] sm:text-[10px] lg:text-sm">
+            {profile.phone}
+          </p>
+        </div>
       </div>
+      <p className="text-[10px] text-black-100 font-medium sm:text-sm lg:text-lg">
+        {profile.amount}
+      </p>
     </motion.div>
   );
 }

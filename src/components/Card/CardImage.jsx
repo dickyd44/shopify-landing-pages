@@ -2,11 +2,7 @@ import { animate, motion, useInView } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 import CardProfileList from "./CardProfileList";
 
-export default function PrimaryCard({
-  primaryContainer,
-  miniModal,
-  fakeProfile,
-}) {
+export function PrimaryCard({ primaryContainer, miniModal, fakeProfile }) {
   return (
     <div className="w-11/12 max-w-[380px] sm:max-w-[480px] md:w-full md:max-w-none lg:w-11/12 relative z-10 after:bg-tertiary-200 after:w-full after:h-[85%] after:absolute after:inset-0 after:z-0 sm:p-8 md:p-4 lg:p-10">
       <motion.div
@@ -19,7 +15,7 @@ export default function PrimaryCard({
           <h4 className="text-xs text-primary-100 font-medium sm:text-base lg:text-2xl">
             Shopify Bill Payment
           </h4>
-          <span className="text-primary-100 text-[7px] font-medium bg-[#EBF7F7] w-4 h-4 flex items-center justify-center block rounded-full sm:w-5 sm:h-5 sm:text-[10px] lg:w-8 lg:h-8 lg:text-base">
+          <span className="text-primary-100 text-[7px] font-medium bg-[#EBF7F7] w-4 h-4 flex items-center justify-center rounded-full sm:w-5 sm:h-5 sm:text-[10px] lg:w-8 lg:h-8 lg:text-base">
             3
           </span>
         </div>

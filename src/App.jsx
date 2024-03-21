@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import Testimonial from "./components/Testimonials";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Main />
       <Banner />
       <Card />
+      <Testimonial />
       <Footer />
     </>
   );

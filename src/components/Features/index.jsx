@@ -62,7 +62,7 @@ export default function Features() {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0 }}
           variants={content}
           className="flex flex-col items-center text-center"
         >

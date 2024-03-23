@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
 import Testimonial from "./components/Testimonials";
+import Blog from "./components/Blog";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Banner />
       <Card />
       <Testimonial />
+      <Blog />
       <Footer />
     </>
   );

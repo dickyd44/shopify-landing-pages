@@ -175,7 +175,7 @@ export default function Footer() {
             <div className="text-center md:col-span-3 md:flex justify-between items-center">
               <div className="mx-auto flex items-center justify-center gap-3 mb-7 mt-5 order-1">
                 <a
-                  href="https://www.instagram.com/bethup97/?next=%2F"
+                  href="https://www.instagram.com/dickythepaddy/"
                   target="_blank"
                 >
                   <img
@@ -184,11 +184,11 @@ export default function Footer() {
                     alt="instagram"
                   />
                 </a>
-                <a href="https://github.com/berthutapea" target="_blank">
+                <a href="https://github.com/dickyd44" target="_blank">
                   <img className="footer-icon" src="/github.svg" alt="github" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/gilberthutapea/"
+                  href="https://www.linkedin.com/in/dicky-darmawan-00b698275"
                   target="_blank"
                 >
                   <img
